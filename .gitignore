@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+*~
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+secrets/
+
+# Temporary output
+*.tmp
+*.bak
+*.swp
+*.pid
+
+# Large model files: add deliberately with Git LFS or release assets
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# NumPy weights are ignored by default; force-add selected evidence artefacts
+*.npz
+
+# Local logs may contain sensitive data; review before force-adding
+*.log
